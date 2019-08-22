@@ -1,0 +1,23 @@
+{
+ "tenant-details":
+ {
+    "tenant-URL"  : "https://tenant/e/ecc29184-1ae2-46dd-96fe-06997671fc57/api/v1/",
+    "API-token"   : "TOKEN_VALUE",
+    "tenant-name" : "Production-tenant",
+    "allocated-host-units":"100",
+    "threshold-host-units": "90",
+    "allocated-dem-units":"10000000",
+    "threshold-dem-units": "90"
+ },
+ "email-details":
+ {
+   "username":"abc.xyz@company.com",
+   "password":"MyPassword",
+   "server":"smtp.server.com",
+   "port":"port",
+   "senders-list":"abc.xyz@company.com",
+   "receiver-list":"abc.xyz@company.com"
+ },
+ "log_file": "dynatrace_oneagent_instance.log"
+}
+
